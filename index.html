@@ -1,26 +1,990 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174557173-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            #video1 {
-                position: fixed;
-                right: 0;
-                bottom: 0;
-                min-width: 100%;
-                min-height: 100%;
-            }
+    gtag('config', 'UA-174557173-1');
+  </script>
+  
+<!--   <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script> -->
+  
+  <meta charset="utf-8">
+  <title>Coding Your Future</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-        </style>
-        <title>Website Under Construction</title>
-    </head>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <body>
-        <video id="video1" src="https://thumbs.gfycat.com/ForcefulCelebratedAzurevase-mobile.mp4" muted autoplay
-            loop></video>
-    </body>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+    Theme Name: NewBiz
+    Theme URL: https://bootstrapmade.com/newbiz-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto"><img src="img/logo.png" width="200" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">Mission</a></li>
+          <li><a href="#services">Our Program</a></li>
+          <li><a href="#event">Events</a></li>
+          <li><a href="#why-us">Participate</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pteam">Join Our Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="img/intro-img.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>Providing<br><span>free and accessible</span><br>computer science education and experience!</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Mission</a>
+          <a href="https://discord.gg/WxkZeXeHPt" class="btn-services scrollto">Discord</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Mission</h3>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4><b>The Problem:</b> Computer science education excludes multiple minority groups, creating educational obstacles and preventing equal representation.</h4>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-venus-mars"></i></div>
+              <h4 class="title"><a href=""></a>Gender</h4>
+              <p class="description">In 1984, 37 percent of computer science majors were women, but by 2014 that number had dropped to 18 percent. The computing industry's rate of U.S. job creation is three times the national average, but if trends continue, it is estimated that women will hold only 20 percent of computing jobs by 2025. <a href="https://www.usnews.com/news/data-mine/articles/2016-10-20/study-computer-science-gender-gap-widens-despite-increase-in-jobs">U.S. News</a></p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h4 class="title"><a href="">Race</a></h4>
+              <p class="description">Black and Hispanic workers continue to be underrepresented in the STEM workforce. Blacks make up 11% of the U.S. workforce overall but represent 9% of STEM workers, while Hispanics comprise 16% of the U.S. workforce but only 7% of all STEM workers. And among employed adults with a bachelor’s degree or higher, Blacks are just 7% and Hispanics are 6% of the STEM workforce. <a href="https://www.pewsocialtrends.org/2018/01/09/blacks-in-stem-jobs-are-especially-concerned-about-diversity-and-discrimination-in-the-workplace/">Pew Research Center</a></p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Socioeconomic Status</a></h4>
+              <p class="description">Recently released technology and engineering literacy scores from NAEP’s Nation’s Report Card – which measures whether students are able to apply tech and engineering skills to real-life situations – revealed a 28-point gap between students from low-income families and their more affluent peers, and a 38-point gap between black and white students. <a href="https://www.washingtonpost.com/news/answer-sheet/wp/2016/08/10/why-more-stem-classes-wont-help-solve-the-serious-stem-achievement-gap/">Washington Post</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-container">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4><b>Our Goal:</b> To provide an environment for middle and high school students of all backgrounds to learn and improve their coding skills.</h4>
+            <p>
+              Middle school and high school is arguably the most important time period of a student's educational career. This is the point in life where a student can explore career opportunities and find out what interests them most. However, according to Cullen White, the managing director of computer science at Teach for America, "Only one in four schools across the nation offer computer science courses." This means that 75% of middle and high school students are denied access to a proper computer science environment, and this, along with multiple minority problems, results in the loss of many potential students that could have been interested in the field. With so many barriers, how can we, as students, learn and explore computer science and see if it the right fit for us? We have planned the perfect program to introduce and nurture the computer science skills in all middle and high schoolers.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Our Program</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title">Middle and High School Oriented</h4>
+              <p class="description">This program is created for middle and high schoolers, and we made sure to make the course applicable to people of this age.<br><br><br></p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-speedometer-outline" style="color: #e9bf06;"></i></div>
+              <h4 class="title">Immediate Application</h4>
+              <p class="description">Not only are we focused on teaching computer science curriculum, but we are also focused on applying it. Throughout the program, participants will collectively work on a project to solve or help with a current-day problem or event.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-clock-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title">6-Week Long Course</h4>
+              <p class="description">One problem with many coding programs is the short duration of their course. Through our 6-week long course, we ensure a full understanding of the subject.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-bookmarks-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title">Curriculum For All</h4>
+              <p class="description">People of all levels of coding experience are welcome to participate in our course. Our curriculum is designed to accommodate beginner, intermediate, and advanced coders.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-mic-outline" style="color: #22c0ff;"></i></div>
+              <h4 class="title">Speakers</h4>
+              <p class="description">Throughout the course, speakers who currently have or are pursuing a career in computer science will come and speak about their experience and answer some questions. Click <a href="https://forms.gle/DUYotXnyPn7yCN5n8">here</a> to become a speaker.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-cash" style="color: #0d7c5b;"></i></div>
+              <h4 class="title">Always 100% Free</h4>
+              <p class="description">The entirety of this course is completely free!<br><br><br><br><br></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+
+    <!--==========================
+      Event
+    ============================-->
+
+    <section id="event" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Events</h3>
+          <p>We are currently offering an online Python and Java course. It is free to attend and will be part of our next scheduled hackathon. Each session of these events will occur every day during the duration of the hackathon. Look below to find out about the different programs that will be offered, what will be taught, who are they opened to, and required prerequisites. Though the dates have not been finalized yet, please be sure to sign up with the participation form and join our discord server to stay updated!</p>
+          <p><strong>Registration is currently open!</strong></p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+          <!--
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">Corporis dolorem</h5>
+                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+<!--                 <i class="ion-social-python"></i> -->
+              <div class="card-body">
+                <h5 class="card-title">Python For Beginner Coders</h5>
+                <p class="card-text"><br><strong>Curriculum: </strong><br>Students will be taught the basics concepts of Python. This includes syntax, libraries, key vocabulary, printing statements, defining variables, defining functions, if/else decisions, while/for loops, taking and using input, mathematical operations, boolean, lists, tuples, arrays, lambda, etc. Student will also work on projects related to what they learn, and will explore Python graphical tools, such as Python Turtle.<br><br><strong>Open to:</strong><br>Middle and high school students.<br><br><strong>Required Prerequisites</strong><br>None.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+<!--                 <i class="iconify" data-icon="cib:java" data-inline="false"></i> -->
+              <div class="card-body">
+                <h5 class="card-title">Java For Beginner Coders</h5>
+                <p class="card-text"><br><strong>Curriculum: </strong><br>Students will be taught the basics concepts of Java. This includes syntax, libraries, key vocabulary, printing statements, defining variables, defining functions, if/else decisions, while/for loops, taking and using input, mathematical operations, boolean, lists, tuples, arrays, lambda, etc. Student will also work on projects related to what they learn, and will explore Java graphical tools, such as Java Swing.<br><br><strong>Open to:</strong><br>Middle and high school students.<br><br><strong>Required Prerequisites</strong><br>None.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="ion-social-python"></i>
+              <div class="card-body">
+                <h5 class="card-title">Python For Intermediate Coders</h5>
+                <p class="card-text"><strong>Curriculum: </strong><br>Students will be taught the intermediate concepts of Python. This includes a more in-depth understanding of taking and using popular libraries such as numpy or matplotlib, classes and objects, functions, lambda, arrays, iterators, etc. Student will also work on projects related to what they learn.<br><br><strong>Open to:</strong><br>Middle and high school students.<br><br><strong>Required Prerequisites</strong><br>Students should have a complete understanding of the concepts listed in the beginner section.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="ion-social-python"></i>
+              <div class="card-body">
+                <h5 class="card-title">Python For Advanced Coders</h5>
+                <p class="card-text"><strong>Curriculum: </strong><br>Students will be taught the advanced concepts of Python. This includes modules, JSON, RegEx, try and except, machine learning with python, etc. Student will also work on projects related to what they learn.<br><br><strong>Open to:</strong><br>Only high school students.<br><br><strong>Required Prerequisites</strong><br>Students should have a complete understanding of the concepts listed in the beginner and intermediate sections.</p>
+              </div>
+            </div>
+          </div>-->
+          <!--
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Eum ut aspernatur</h5>
+                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+
+        <!-- <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div> -->
+
+      </div>
+    </section>
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Want to participate in our program?</h3>
+          <p>By clicking the link below, you are signing up to be a participant at a 6-week long course focused on computer science (more details in the link). Sign up while seats last!</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+          <!--
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">Corporis dolorem</h5>
+                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-user"></i>
+              <div class="card-body">
+                <h5 class="card-title">Participate In Our Program</h5>
+                <p class="card-text">To participate, click <a href="https://forms.gle/Xjc2ZHBZt9WdnQAPA">here</a>.</p>
+              </div>
+            </div>
+          </div>
+          <!--
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Eum ut aspernatur</h5>
+                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+
+        <!-- <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div> -->
+
+      </div>
+    </section>
+
+    <!--==========================
+      Portfolio Section
+    ============================
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 1</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 3</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 2</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 2</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 2</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">App 3</a></h4>
+                <p>App</p>
+                <div>
+                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 1</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Card 3</a></h4>
+                <p>Card</p>
+                <div>
+                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>Web</p>
+                <div>
+                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>--><!-- #portfolio -->
+
+    <!--==========================
+      Clients Section
+    ============================
+    <section id="testimonials" class="section-bg">
+      <div class="container">
+        <header class="section-header">
+          <h3>Testimonials</h3>
+        </header>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>--><!-- #testimonials -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Our team is dedicated to providing every middle and high school student the oppurtunity and environment to learn and improve their coding skills.</p>
+          <h4 style="text-align:center;">Partners & Sponsors</h4>
+          <div class="row">
+            <div class="col-lg-6 wow fadeInUp center">
+              <a href="https://utm.guru/udCff"> <img src="img/Logo_Light_Bg.png" class="img-fluid center" alt=""> </a>
+              <figcaption>The world's premier platform for high school engineers, hackers, and hustlers.</figcaption>
+            </div>
+            <div class="col-lg-6 wow fadeInUp center">
+              <a href="https://www.aceacademytutoring.org/"> <img src="img/aa_logo_RED_backg2.png" class="img-fluid center" alt=""> </a>
+              <br>
+              <figcaption>Ace Academy is a high-school ran program offering specialized classes along with homework help to middle school/early high school students completely for free.</figcaption>
+            </div>
+          </div>
+          
+        </div>
+
+        <div id="outer" class="row">
+
+          <!--<div class="col-lg-3 col-md-6 wow fadeInUp">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Walter White</h4>
+                  <span>Chief Executive Officer</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Product Manager</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>William Anderson</h4>
+                  <span>CTO</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <!--<div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Sarang Goel</h4>
+                  <span>Founder</span>
+                  <div class="social">
+                    <a href=""><i class="fa fa-twitter"></i></a>
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-google-plus"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+    <section id="pteam" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Want to be a part of our team?</h3>
+          <p>By signing up below, you can help students across the world learn and improve their computer science skills while simultaneously earn service hours and gain invaluable leadership experience.</p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+          <!--
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">Corporis dolorem</h5>
+                <p class="card-text">Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus.</p>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-users"></i>
+              <div class="card-body">
+                <h5 class="card-title">Join Our Team - Volunteer</h5>
+                <p class="card-text">To join, click <a href="https://forms.gle/tGFsDssW3PpjdmmU7">here</a>.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-users"></i>
+              <div class="card-body">
+                <h5 class="card-title">Join Our Team - Leader</h5>
+                <p class="card-text">To join, click <a href="https://forms.gle/SG4A6R6WDKdw4UCf7">here</a>.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-users"></i>
+              <div class="card-body">
+                <h5 class="card-title">Join Our Team - Speaker</h5>
+                <p class="card-text">To join, click <a href="https://forms.gle/DUYotXnyPn7yCN5n8">here</a>.</p>
+              </div>
+            </div>
+          </div>
+          <!--
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Eum ut aspernatur</h5>
+                <p class="card-text">Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p>
+              </div>
+            </div>
+          </div>-->
+
+        </div>
+
+        <!-- <div class="row counters">
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">274</span>
+            <p>Clients</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">421</span>
+            <p>Projects</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div> -->
+
+      </div>
+    </section>
+
+    <!--==========================
+      Clients Section
+    ============================
+    <section id="clients" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3>Our CLients</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
+        </div>
+        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-1.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-2.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-3.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-4.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-5.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-6.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-7.png" class="img-fluid" alt="">
+            </div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="client-logo">
+              <img src="img/clients/client-8.png" class="img-fluid" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    --><!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+          <a class="button button:hover button:focus" href="mailto:startcodingyourfuture@gmail.com">Send An Email</a>
+          
+        </div>
+        <h6><center>or if you have a question, fill out this <a href= "https://forms.gle/ZKoGMwcrVjXHmoST7">form</a>.</center></h6>
+
+        <!--<div class="row wow fadeInUp">
+          <div class="col-lg-6">
+            <div class="map mb-4 mb-lg-0">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 312px;" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-md-5 info">
+                <i class="ion-ios-location-outline"></i>
+                <p>A108 Adam Street, NY 535022</p>
+              </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>info@example.com</p>
+              </div>
+              <div class="col-md-3 info">
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div>
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+        </div>-->
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div id="outer" class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Coding Your Future</h3>
+            <p>We hope to break all minority barriers and provide the proper computer science environment for all middle and high schoolers. Through our 6-week long course, customized curriculum, and amazing teachers, we believe that any middle or high schooler will be set to take on a career in computer science.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#intro">Home</a></li>
+              <li><a href="#about">Mission</a></li>
+              <li><a href="#services">Our Program</a></li>
+              <li><a href="#why-us">Participate</a></li>
+              <li><a href="#team">Team</a></li>
+              <li><a href="#pteam">Join Our Team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <strong>Email:</strong> startcodingyourfuture@gmail.com<br><br>
+              <strong>Questions:</strong><br> Click <a href= "https://forms.gle/ZKoGMwcrVjXHmoST7">here</a> to access form.<br>
+            </p>
+
+          </div>
+
+          <!--<div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+
+      </div>
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=NewBiz
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+  <div style="width:400px;">
+    <!--<div style="float: left;"><a href="#" class="fab1">Participants</a></div>-->
+    <div style="float: right;"><a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a></div>
+    <!--<div style="float: left;"><a href="#" class="fab">Speakers & Volunteers</a></div>-->
+  </div>
+  <!-- Uncomment below i you want to use a preloader -->
+  <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
 </html>
