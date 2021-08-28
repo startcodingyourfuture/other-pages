@@ -14,7 +14,12 @@ body {
   color: #444;
   font-family: "Open Sans", sans-serif;
 }
-
+.blacktext {
+  color: black;
+}
+.no-bullets {
+  list-style-type: none;
+}
 a {
   color: #007bff;
   transition: 0.5s;
@@ -43,12 +48,12 @@ h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
-} 
+}
 
-.center{
+.center {
   text-align: center;
 }
-.center-custom1{
+.center-custom1 {
   margin: 5%;
 }
 /* Back to top button */
@@ -74,7 +79,7 @@ h6 {
   color: #fff;
 }
 
-.back-to-topright{
+.back-to-topright {
   float: right;
 }
 
@@ -136,11 +141,10 @@ h6 {
   color: white;
 }
 
-
-.buttoncontainer{
+.buttoncontainer {
   display: flex;
   flex-direction: row;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 /* Prelaoder */
@@ -315,7 +319,6 @@ h6 {
 --------------------------------------------------------------*/
 
 /* Desktop Navigation */
-
 
 .main-nav,
 .main-nav * {
@@ -784,9 +787,6 @@ h6 {
   color: #cce5ff;
 }
 
-
-
-
 #event {
   padding: 60px 0;
   background: #ffffff;
@@ -861,10 +861,6 @@ h6 {
   font-size: 14px;
   color: #000000;
 }
-
-
-
-
 
 #why-us {
   padding: 60px 0;
@@ -1076,8 +1072,18 @@ h6 {
   background: #3395ff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-preview:hover
+  i,
+#portfolio
+  .portfolio-item
+  .portfolio-wrap
+  .portfolio-info
+  .link-details:hover
+  i {
   color: #fff;
 }
 
@@ -1419,7 +1425,7 @@ h6 {
 }
 
 .button {
-  background-color: #0067d5; 
+  background-color: #0067d5;
   border: none;
   color: white;
   padding: 10px 30px;
@@ -1437,7 +1443,6 @@ h6 {
   background-color: #4b85f1;
   color: white;
 }
-
 
 .button:focus {
   color: white;
@@ -1596,7 +1601,7 @@ h6 {
 }
 
 #outer {
-  width:102.5%;
+  width: 102.5%;
   display: flex;
   justify-content: center;
 }
@@ -1685,9 +1690,8 @@ h6 {
     padding: 100px 0 20px 0;
   }
 }
-.about-container{
-   display: flex;
-   justify-content:center;
-   margin-bottom:2%;
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
 }
-
